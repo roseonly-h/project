@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天机器人</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+     <div class="wrapper">
+         <div class="header">聊天机器人</div>
+         <div class="contain">
+            <div class="mime">
+                <div class="avator"></div>
+                <div class="text">你好呀</div>
+            </div>
+            <div class="robot">
+                <div class="avator"></div>
+                <div class="text">你好呀</div>
+            </div>
+         </div>
+         <div class="input-box">
+            <input type="text" id="send-text">
+            <button id="send-btn">发送</button>
+         </div>
+     </div>
+    <script src="./jquery.min.js"></script>
+    <script src="./index.js"></script>
+    <!-- <script>
+        $.ajax({
+            type:'GET',
+            url:'http://open.duyiedu.com/api/student/findAll',
+            data: {
+                appkey: 'hwq_1_1585648175688'
+                // appkey: 'DuYimeiqi_1564986205860'
+            },
+            // jsonp  代表当前为jsonp的请求，而不是ajax请求
+            dataType:'json',
+            // 数据传输的格式
+            // contentType:'application/x-www-form-urlencoded',
+            // 数据发送前的拦截  拦截器的功能
+            // beforeSend: function (xhr, data){
+            //     console.log(xhr, data)
+            //     // 终止网络请求
+            //     return false
+            // },
+            success: function(res){
+                console.log(res)
+            },
+            // 请求失败触发的回调函数
+            error: function(res){
+                console.log(res)
+            },
+            // 
+            complete: function(res) {
+                console.log(res)
+            }
+        })
+        // 三次握手（建立连接）
+        // 四次挥手（断开连接）
+    </script> -->
+</body>
+</html>
